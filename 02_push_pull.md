@@ -56,7 +56,7 @@
 2. ```bash
    $ git pull origin master   # pull the changes from Github
    $ git log --oneline  # check the log to compare with Github commits
-```
+   ```
    
 3. Various changes in local folder
 
@@ -69,11 +69,12 @@
 2. ```bash
    $ git status  # ★ check the status of git
    ```
+```
 
 3. ```bash
    $ git add <file>  # stage the file for committing
    $ git commit -m "<Commit message>"  # commit the file to git
-   ```
+```
 
 4. ```bash
    $ git push origin master  # push the changes to Github

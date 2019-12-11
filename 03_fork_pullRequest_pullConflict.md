@@ -33,9 +33,15 @@
 
 ### (1) Conflict Case
 
-
+- Github와 Local 사이에 commit이 동일하게 찍히지 않고, 다른 commit이 구성되는 문제
+  - ex.  ( Github에서 '파일 a 수정' 및 '파일 b 추가' ) & ( Local에서 '파일 a 수정' 및 '파일 c 추가' )  -  맞나???
 
 
 
 ### (2) Solution
+
+- git stash 명령어를 사용해, 현재 변경사항을 다른 저장소에 일시 저장 → working tree를 clean하게 만들 수 있음
+- git checkout < hash-function 혹은 master > 로 시점 이동
+
+
 

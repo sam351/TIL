@@ -1,4 +1,4 @@
-# Github TIL
+# Github TIL (191212)
 
 ## 1. 파이썬 가상환경 (venv/ , .gitignore, requirements.txt)
 

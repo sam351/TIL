@@ -1,4 +1,4 @@
-# Github TIL
+# Github TIL (191209~191210)
 
 ## 1. TIL - new commands
 
@@ -69,27 +69,17 @@
 2. ```bash
    $ git status  # ★ check the status of git
    ```
-```
+
 
 3. ```bash
    $ git add <file>  # stage the file for committing
    $ git commit -m "<Commit message>"  # commit the file to git
-```
+   ```
+
 
 4. ```bash
    $ git push origin master  # push the changes to Github
    $ git log --oneline  # check the log to compare with Github commits
    ```
-
-
-
-
-
-
-
-
-
-
-
 
 

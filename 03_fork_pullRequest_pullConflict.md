@@ -1,4 +1,4 @@
-# Github TIL
+# Github TIL (191210)
 
 ## 1. Fork & Pull Request
 

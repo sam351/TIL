@@ -1,3 +1,4 @@
+# ref = "https://rfriend.tistory.com/79"
 # setwd("")
 rm(list = ls())
 

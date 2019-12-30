@@ -110,3 +110,47 @@ sqldf('SELECT Branch, sum(Balance) AS "sum_Balance"
 #       ORDER BY x.strain, x.chr ASC, x.start_bp ASC
 #       ')
 
+
+# Practice - extracting certain transaction using 3 tables
+Product = data.frame(pid=c(100,200,300), 
+                     name=c('p1','p2','p3'), 
+                     price=c(100, 200, 300))
+Purchase = data.frame(pid=c(100,200,300), 
+                      cid=c(1,2,1), 
+                      store=c('s1','s2','s3'))
+Customer = data.frame(cid=c(1,2), 
+                       name=c('c1','c2'), 
+                       city=c('seattle','seoul'))
+sqldf('SELECT DISTINCT x.name product, z.name customer
+      FROM Product x, Purchase y, Customer z
+      WHERE x.pid = y.pid AND
+            y.cid = z.cid AND
+            x.price > 100 AND
+            z.city = "seattle"')
+
+
+# CREATE VIEW (name) AS
+sqldf(c('CREATE VIEW StorePrice AS
+      SELECT x.store, y.price
+      FROM Purchase x, Product y
+      WHERE x.pid = y.pid',
+        
+      'SELECT * FROM StorePrice'))
+
+
+# using VIEW
+sqldf(c('CREATE VIEW StorePrice AS
+      SELECT x.store, y.price
+        FROM Purchase x, Product y
+        WHERE x.pid = y.pid',
+        
+        'SELECT DISTINCT c.name, sp.store
+        FROM Customer c, StorePrice sp, Purchase p
+        WHERE c.cid = p.cid AND
+              p.store = sp.store AND
+              sp.price >= 200'))
+
+
+# CREATE INDEX (attr_name) ON (table) - Not Run
+sqldf(c('CREATE INDEX p_index ON Product (pid)',
+        'SELECT pid FROM Product'))

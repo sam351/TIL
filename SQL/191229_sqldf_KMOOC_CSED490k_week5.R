@@ -82,12 +82,18 @@ sqldf('SELECT Docid FROM Documents
 ## Write query to compute the similarity of every pair of documents. The similarity here is computed by summing the same term counts of two documents.
 sqldf('SELECT * FROM Documents a
       WHERE Docid=1')
-
 sqldf('SELECT * FROM Documents a
       WHERE Docid=2')
-
-sqldf('SELECT a.Docid, b.Docid, a.count+b.count
+sqldf('SELECT a.Docid AS "Doc_1",
+              b.Docid AS "Doc_2",
+              sum(a.count*b.count) AS "Similarity"
       FROM Documents a, Documents b
-      WHERE a.Docid!=b.Docid AND a.Term = b.Term
+      WHERE a.Docid < b.Docid
+            AND a.Term = b.Term
       GROUP BY a.Docid, b.Docid')
-
+sqldf('SELECT a.Docid AS "Doc_1",
+              b.Docid AS "Doc_2",
+              sum(a.count*b.count) AS "Similarity"
+      FROM Documents a
+      JOIN Documents b ON a.Docid < b.Docid AND a.Term = b.Term
+      GROUP BY a.Docid, b.Docid')

@@ -4,7 +4,7 @@ rm(list = ls())
 
 library(sqldf)
 
-Documents = read.csv('Documents.csv', header = F,
+Documents = read.csv('191230_Documents.csv', header = F,
                      col.names = c('Docid', 
                                    'Term', 'count'))
 sqldf('SELECT * FROM Documents LIMIT 5')

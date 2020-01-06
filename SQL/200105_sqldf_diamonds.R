@@ -52,14 +52,41 @@ sqldf('SELECT *, CASE WHEN price >= 5324 THEN "high"
       LIMIT 5')
 
 
-# 5. summarize in sql
+# 5. summarize in sql - from here
+sqldf('SELECT * FROM diamonds LIMIT 5')
+sqldf('SELECT min(price), max(price), max(price)-min(price),
+              sum(price), count(price), sum(price)/count(price),
+              avg(price)
+      FROM diamonds')
 
 
 # 6. group_by in sql
+sqldf('SELECT cut_level, cut, count(*), max(price), avg(carat)
+      FROM (SELECT *, CASE WHEN cut="Fair" THEN 1
+                            WHEN cut="Good" THEN 2
+                            WHEN cut="Very Good" THEN 3
+                            WHEN cut="Ideal" THEN 4
+                            WHEN cut="Premium" THEN 5
+                            END AS "cut_level"
+            FROM diamonds)
+      GROUP BY cut_level')
 
 
 # 7. arrange in sql
+sqldf('SELECT * FROM diamonds
+      ORDER BY price ASC
+      LIMIT 5')
+sqldf('SELECT * FROM diamonds
+      ORDER BY price DESC
+      LIMIT 5')
 
 
 # 8. sample in sql
-
+diamonds['idx'] = rownames(diamonds)
+# sqldf('SELECT * FROM diamonds SAMPLE(3)') - Not run
+# sqldf('SELECT * FROM diamonds SAMPLE(0.1)') - Not run
+# sqldf('SELECT * FROM diamonds TABLESAMPLE (5 ROWS) LIMIT 10') - Not run
+# sqldf('SELECT * FROM diamonds TABLESAMPLE (5 percent) LIMIT 10') - Not run
+sqldf('SELECT * FROM diamonds
+      ORDER BY RANDOM(*)
+      LIMIT 5')

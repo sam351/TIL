@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from django.core.urlresolvers import reverse
-from .model import Video
+from django.urls import reverse
+from .models import Video
 
 # Create your views here.
 def video_list(request):

@@ -15,3 +15,7 @@ def video_new(request):
         return redirect(reverse('video:list'))
     elif request.method == "GET":
         return render(request, 'video/video_new.html')
+
+def video_detail(request, video_id):
+    video = Video.objects.get(id=video_id)
+    return render(request, 'video/video_detail.html', {'video':video})

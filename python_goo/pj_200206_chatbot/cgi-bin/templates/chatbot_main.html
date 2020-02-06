@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+      <html>
+      <head>
+          <title>jQuery Mobile Basic</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+          <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+          <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      </head>
+
+      <body>
+          <div data-role="page">
+              <div data-role="header" data-theme="b">
+                  <h1>Chatbot</h1>
+              </div>
+              <div data-role="content">
+                  <ul data-role="listview" data-inset="true">
+
+                      <li data-role="list-divider">챗봇에게 말을 걸어보세요!</li>
+                      <li>
+                          <a href="#">
+                              <div id="chat"></div>
+                              <div class='usr'>
+                                  <input id="txt" size="40">
+                                  <button class="ui-btn ui-shadow ui-btn-inline" onclick="say()">전송</button>
+                              </div>
+
+                              <script>
+                                  var url = "./chatbot.py";
+                                  function say() {
+                                      var txt = $('#txt').val();
+                                      $.get(url, { "m": "say", "txt": txt },
+                                          function (res) {
+                                              var html = "<div class='usr ui-content'><span>\"" + esc(txt) +
+                                                  "\"</span></div><div class='bot ui-content'> 챗봇 : <span>" +
+                                                  esc(res) + "</span></div>";
+                                              $('#chat').html($('#chat').html() + html);
+                                              $('#txt').val('').focus();
+                                          });
+                                  }
+                                  function esc(s) {
+                                      return s.replace('&', '&amp;').replace('<', '&lt;')
+                                          .replace('>', '&gt;');
+                                  }
+                              </script>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </body>
+      </html>

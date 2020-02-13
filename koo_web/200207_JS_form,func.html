@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_sample</title>
+
+    <script>
+        function welcoming() {
+            alert("환영합니다!")
+        }
+        function display() {
+            alert("삐리리리링")
+        }
+        function background_red() {
+            document.body.style.background = "red";
+        }
+        function blink() {
+            document.body.style.background = "black";
+        }
+
+
+        // practice OOP
+        var i = 'hello';
+        var j = 10;
+        // window.alert("")
+        window.document.write("<h1>화면출력</h1>")
+
+        
+    </script>
+</head>
+
+<body>
+    <h1 id="h">화면출력 html</h1>
+    <form method="get" action="">
+        아이디 : <input type="text" name="txt_id"><br>
+        비밀번호 : <input type="text" name="txt_pw"><br>
+        <input type="submit" value="로그인" onclick="javascript:welcoming()"><br><br>
+        <input type="button" value="알람" onclick="javascript:display()"><br><br>
+        <input type="button" value="바탕색을 빨강으로!" onclick="background_red()"><br><br>
+        <button onclick="blink()">깜빡!</button><br><br>
+        <input type="button" value="id==h를 빨강으로!" onclick="h1_red()"><br><br>
+        <input type="button" value="id==h를 다시 검정으로!" onclick="h1_black()"><br><br>
+    </form>
+
+    <script>
+        var hobj = window.document.getElementById('h');
+        function h1_red() {
+            hobj.style.color = 'red';
+        }
+        function h1_black() {
+            hobj.style.color = "black";
+        }
+    </script>
+</body>
+</html>

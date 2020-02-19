@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script>
+        // 1. 숫자 리터럴
+        var j =  10
+        // 2. 문자(열) 리터럴
+        var k = 'hello'
+        // 3. 함수리터럴
+        var show = function(name) {
+            window.alert('name :' + name);
+        }
+        // document.write(show)
+        // show(name = '홍길동')
+
+        // 함수 리터럴을 다른 함수의 인자로 전달 - inner function
+        function display(args) {
+            document.write(args);
+            args()
+        }
+        // window.display(show)
+
+        // 4. 배열 리터럴 - 원래는 객체를 이용해 선언하는 것을 권장
+        var arr=[1, 2.5, 'hello', function(){}, [4,5,6]]
+
+        // 5. 객체 리터럴
+        var obj={
+            name:'홍길동',
+            age:30,
+            display:function(){
+                document.write(this.name)  // 인스턴스의 변수를 선택할 때는 this. 사용
+            }
+        }
+        window.obj.display()
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

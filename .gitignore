@@ -1,4 +1,5 @@
 .vscode
+secret.py
 
 # Created by https://www.gitignore.io/api/venv,flask,python
 # Edit at https://www.gitignore.io/?templates=venv,flask,python

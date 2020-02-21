@@ -9,8 +9,8 @@
                 ]
             },
             {
-                "long_name": "\uc5ec\uc758\ub3d9",
-                "short_name": "\uc5ec\uc758\ub3d9",
+                "long_name": "\uc5ec\uc758\ub3c4\ub3d9",
+                "short_name": "\uc5ec\uc758\ub3c4\ub3d9",
                 "types": [
                     "political",
                     "sublocality",
@@ -50,32 +50,34 @@
                 ]
             }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc601\ub4f1\ud3ec\uad6c \uc5ec\uc758\ub3d9 14-35",
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc601\ub4f1\ud3ec\uad6c \uc5ec\uc758\ub3c4\ub3d9 14-35",
         "geometry": {
             "location": {
-                "lat": 37.5285649,
-                "lng": 126.9206085
+                "lat": 37.5285662,
+                "lng": 126.9206151
             },
             "location_type": "ROOFTOP",
             "viewport": {
                 "northeast": {
-                    "lat": 37.5299138802915,
-                    "lng": 126.9219574802915
+                    "lat": 37.5299151802915,
+                    "lng": 126.9219640802915
                 },
                 "southwest": {
-                    "lat": 37.5272159197085,
-                    "lng": 126.9192595197085
+                    "lat": 37.5272172197085,
+                    "lng": 126.9192661197085
                 }
             }
         },
-        "place_id": "ChIJy-JKwCSffDURx_v6Rp_K3d8",
+        "place_id": "ChIJ60ZLwCSffDURVzGbMD-vD7U",
         "plus_code": {
             "compound_code": "GWHC+C6 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
             "global_code": "8Q98GWHC+C6"
         },
         "types": [
-            "street_address"
-        ]
+            "establishment",
+            "point_of_interest"
+        ],
+        "original_addr": "\uc601\ub4f1\ud3ec\uad6c \uc5ec\uc758\ub3c4\ub3d9 14-35 \uae08\uac15\ube4c\ub529"
     },
     {
         "address_components": [
@@ -162,10 +164,18 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\ub3d9\ub300\ubb38\uad6c \uc774\ubb38\ub85c 17 \ud68c\uae30\ub3d9 "
     },
     {
         "address_components": [
+            {
+                "long_name": "\uff13\uff18",
+                "short_name": "\uff13\uff18",
+                "types": [
+                    "premise"
+                ]
+            },
             {
                 "long_name": "\ub3d9\uc77c\ub85c174\uae38",
                 "short_name": "\ub3d9\uc77c\ub85c174\uae38",
@@ -217,41 +227,34 @@
                 ]
             }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \ub178\uc6d0\uad6c \uacf5\ub9891\ub3d9 \ub3d9\uc77c\ub85c174\uae38",
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \ub178\uc6d0\uad6c \uacf5\ub9891\ub3d9 \ub3d9\uc77c\ub85c174\uae38 38",
         "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.6199547,
-                    "lng": 127.0779328
-                },
-                "southwest": {
-                    "lat": 37.6185054,
-                    "lng": 127.0755145
-                }
-            },
             "location": {
-                "lat": 37.6193903,
-                "lng": 127.0765861
+                "lat": 37.6189351,
+                "lng": 127.0775493
             },
-            "location_type": "APPROXIMATE",
+            "location_type": "ROOFTOP",
             "viewport": {
                 "northeast": {
-                    "lat": 37.62057903029149,
-                    "lng": 127.0780726302915
+                    "lat": 37.6202840802915,
+                    "lng": 127.0788982802915
                 },
                 "southwest": {
-                    "lat": 37.6178810697085,
-                    "lng": 127.0753746697085
+                    "lat": 37.61758611970851,
+                    "lng": 127.0762003197085
                 }
             }
         },
         "partial_match": true,
-        "place_id": "ChIJFdMols67fDURt3vOoJ4Xd4o",
+        "place_id": "ChIJj5Hwn867fDURMZKw0Mp4dxs",
+        "plus_code": {
+            "compound_code": "J39H+H2 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99J39H+H2"
+        },
         "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
+            "street_address"
+        ],
+        "original_addr": "\ub178\uc6d0\uad6c \ub3d9\uc77c\ub85c174\uae38 38 \uacf5\ub989\ub3d9 \ud50c\ub77c\uccb476"
     },
     {
         "address_components": [
@@ -332,7 +335,8 @@
             "food",
             "point_of_interest",
             "restaurant"
-        ]
+        ],
+        "original_addr": "\uc911\uad6c \ub9c8\ub978\ub0b4\ub85c 106 \uc624\uc7a5\ub3d9 "
     },
     {
         "address_components": [
@@ -420,7 +424,8 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uc601\ub4f1\ud3ec\uad6c \uc601\ub4f1\ud3ec\ub85c49\uae38 9-14 \uc601\ub4f1\ud3ec\ub3d92\uac00 101\ub3d9"
     },
     {
         "address_components": [
@@ -502,7 +507,8 @@
         "place_id": "EjYzOSwgMzktNSBKdW5nZ29rLWRvbmcsIEd3YW5namluLWd1LCBTZW91bCwgU291dGggS29yZWEiHhocChYKFAoSCaGyJCzWunw1EYlWUpN-mRQrEgIzOQ",
         "types": [
             "subpremise"
-        ]
+        ],
+        "original_addr": "\uad11\uc9c4\uad6c \ub2a5\ub3d9\ub85c39\uae38 5 \uc911\uace1\ub3d9 \uc640\uc774\uc704\ub4dc\ubbf8"
     },
     {
         "address_components": [
@@ -591,24 +597,18 @@
             "political",
             "sublocality",
             "sublocality_level_4"
-        ]
+        ],
+        "original_addr": "\uc911\ub791\uad6c \uc0ac\uac00\uc815\ub85c 374 \uba74\ubaa9\ub3d9,\ud0b4\uc2a4\ud0c0\uc6cc 637-2\uc678 4\ud544\uc9c0"
     },
     {
         "address_components": [
             {
-                "long_name": "\uff15\uff15\uff10\u2212\uff11",
-                "short_name": "\uff15\uff15\uff10\u2212\uff11",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\ubc29\ud654\ub3d9",
-                "short_name": "\ubc29\ud654\ub3d9",
+                "long_name": "\uc591\ucc9c\ub85c26\uae38",
+                "short_name": "\uc591\ucc9c\ub85c26\uae38",
                 "types": [
                     "political",
                     "sublocality",
-                    "sublocality_level_2"
+                    "sublocality_level_4"
                 ]
             },
             {
@@ -635,45 +635,44 @@
                     "country",
                     "political"
                 ]
-            },
-            {
-                "long_name": "157-220",
-                "short_name": "157-220",
-                "types": [
-                    "postal_code"
-                ]
             }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\uc11c\uad6c \ubc29\ud654\ub3d9 550-1",
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\uc11c\uad6c \uc591\ucc9c\ub85c26\uae38",
         "geometry": {
-            "location": {
-                "lat": 37.5702516,
-                "lng": 126.8077923
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
+            "bounds": {
                 "northeast": {
-                    "lat": 37.57160058029149,
-                    "lng": 126.8091412802915
+                    "lat": 37.5730308,
+                    "lng": 126.8231586
                 },
                 "southwest": {
-                    "lat": 37.5689026197085,
-                    "lng": 126.8064433197085
+                    "lat": 37.5717617,
+                    "lng": 126.8172446
+                }
+            },
+            "location": {
+                "lat": 37.5725018,
+                "lng": 126.819582
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.57374523029149,
+                    "lng": 126.8231586
+                },
+                "southwest": {
+                    "lat": 37.57104726970849,
+                    "lng": 126.8172446
                 }
             }
         },
         "partial_match": true,
-        "place_id": "ChIJEVhG0pacfDUREkqrB8rcfqw",
-        "plus_code": {
-            "compound_code": "HRC5+44 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98HRC5+44"
-        },
+        "place_id": "ChIJkYK9r4acfDUR664DXt9BSZk",
         "types": [
-            "car_dealer",
-            "establishment",
-            "point_of_interest",
-            "store"
-        ]
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+        ],
+        "original_addr": "\uac15\uc11c\uad6c \uc591\ucc9c\ub85c26\uae38 33-8 \ubc29\ud654\ub3d9 \ub9c8\uace1\uc2a4\uce74\uc774 A\ub2e8\uc9c0 101\ub3d9"
     },
     {
         "address_components": [
@@ -761,80 +760,8 @@
         },
         "types": [
             "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uc0bc\uc591\ub85c138\uae38",
-                "short_name": "\uc0bc\uc591\ub85c138\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\uac15\ubd81\uad6c",
-                "short_name": "\uac15\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc0bc\uc591\ub85c138\uae38",
-        "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.6493408,
-                    "lng": 127.0195428
-                },
-                "southwest": {
-                    "lat": 37.6480918,
-                    "lng": 127.0141221
-                }
-            },
-            "location": {
-                "lat": 37.6486653,
-                "lng": 127.0167028
-            },
-            "location_type": "APPROXIMATE",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6500652802915,
-                    "lng": 127.0195428
-                },
-                "southwest": {
-                    "lat": 37.6473673197085,
-                    "lng": 127.0141221
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJZwZjJCK8fDURlIHPqYXldXQ",
-        "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
+        "original_addr": "\uad11\uc9c4\uad6c \uc790\uc591\ubc88\uc601\ub85c7\uae38 12 \uc790\uc591\ub3d9 \uc704\ub108\uc2dc\uc6d0"
     },
     {
         "address_components": [
@@ -931,7 +858,82 @@
         "types": [
             "establishment",
             "point_of_interest"
-        ]
+        ],
+        "original_addr": "\uad11\uc9c4\uad6c \ub3d9\uc77c\ub85c80\uae38 37 \uc911\uace1\ub3d9 \ub354 \uba54\uc778\uc988\ube4c"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uc0bc\uc591\ub85c138\uae38",
+                "short_name": "\uc0bc\uc591\ub85c138\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\uac15\ubd81\uad6c",
+                "short_name": "\uac15\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc0bc\uc591\ub85c138\uae38",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 37.6493408,
+                    "lng": 127.0195428
+                },
+                "southwest": {
+                    "lat": 37.6480918,
+                    "lng": 127.0141221
+                }
+            },
+            "location": {
+                "lat": 37.6486653,
+                "lng": 127.0167028
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6500652802915,
+                    "lng": 127.0195428
+                },
+                "southwest": {
+                    "lat": 37.6473673197085,
+                    "lng": 127.0141221
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJZwZjJCK8fDURlIHPqYXldXQ",
+        "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \uc0bc\uc591\ub85c138\uae38 54 \uc218\uc720\ub3d9 \uc2a4\uce74\uc774\ub4dc\ub9bc\ud0c0\uc6b4"
     },
     {
         "address_components": [
@@ -1019,185 +1021,8 @@
         },
         "types": [
             "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\ub3c5\uc0b0\ub85c64\ub2e4\uae38",
-                "short_name": "\ub3c5\uc0b0\ub85c64\ub2e4\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\ub3c5\uc0b02\ub3d9",
-                "short_name": "\ub3c5\uc0b02\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uae08\ucc9c\uad6c",
-                "short_name": "\uae08\ucc9c\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "153-012",
-                "short_name": "153-012",
-                "types": [
-                    "postal_code"
-                ]
-            }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uae08\ucc9c\uad6c \ub3c5\uc0b02\ub3d9 \ub3c5\uc0b0\ub85c64\ub2e4\uae38",
-        "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.4665729,
-                    "lng": 126.9046784
-                },
-                "southwest": {
-                    "lat": 37.4656848,
-                    "lng": 126.903746
-                }
-            },
-            "location": {
-                "lat": 37.466085,
-                "lng": 126.9041428
-            },
-            "location_type": "APPROXIMATE",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.4674778302915,
-                    "lng": 126.9055611802915
-                },
-                "southwest": {
-                    "lat": 37.4647798697085,
-                    "lng": 126.9028632197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJm0H1oNFhezUR6cxe27dFuZw",
-        "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\ub355\ub989\ub85c30\uae38",
-                "short_name": "\ub355\ub989\ub85c30\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\ubbf8\uc544\ub3d9",
-                "short_name": "\ubbf8\uc544\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uac15\ubd81\uad6c",
-                "short_name": "\uac15\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "142-100",
-                "short_name": "142-100",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \ubbf8\uc544\ub3d9 \ub355\ub989\ub85c30\uae38",
-        "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.6345152,
-                    "lng": 127.0264866
-                },
-                "southwest": {
-                    "lat": 37.6308609,
-                    "lng": 127.0251029
-                }
-            },
-            "location": {
-                "lat": 37.6333236,
-                "lng": 127.0258599
-            },
-            "location_type": "APPROXIMATE",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6345152,
-                    "lng": 127.0271437302915
-                },
-                "southwest": {
-                    "lat": 37.6308609,
-                    "lng": 127.0244457697085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJo1uLOhO8fDURTKWcgoMBCVs",
-        "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
+        "original_addr": "\uc591\ucc9c\uad6c \ubaa9\ub3d9\uc911\uc559\uc11c\ub85c11\uae38 51 \ubaa9\ub3d9 \ud615\uc9c0\ub9ac\ubc84\ube4c"
     },
     {
         "address_components": [
@@ -1285,13 +1110,21 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uc591\ucc9c\uad6c \ubaa9\ub3d9\uc911\uc559\ub0a8\ub85c16\ub2e4\uae38 32-7 \ubaa9\ub3d9 \uc5d8\ub9bc\ud558\uc6b0\uc2a4"
     },
     {
         "address_components": [
             {
-                "long_name": "\ub355\ub989\ub85c30\uae38",
-                "short_name": "\ub355\ub989\ub85c30\uae38",
+                "long_name": "\uff12\uff17",
+                "short_name": "\uff12\uff17",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc0bc\uc591\ub85c163\uae38",
+                "short_name": "\uc0bc\uc591\ub85c163\uae38",
                 "types": [
                     "political",
                     "sublocality",
@@ -1299,8 +1132,8 @@
                 ]
             },
             {
-                "long_name": "\ubbf8\uc544\ub3d9",
-                "short_name": "\ubbf8\uc544\ub3d9",
+                "long_name": "\uc6b0\uc774\ub3d9",
+                "short_name": "\uc6b0\uc774\ub3d9",
                 "types": [
                     "political",
                     "sublocality",
@@ -1333,48 +1166,40 @@
                 ]
             },
             {
-                "long_name": "142-100",
-                "short_name": "142-100",
+                "long_name": "142-871",
+                "short_name": "142-871",
                 "types": [
                     "postal_code"
                 ]
             }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \ubbf8\uc544\ub3d9 \ub355\ub989\ub85c30\uae38",
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9 \uc0bc\uc591\ub85c163\uae38 27",
         "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.6345152,
-                    "lng": 127.0264866
-                },
-                "southwest": {
-                    "lat": 37.6308609,
-                    "lng": 127.0251029
-                }
-            },
             "location": {
-                "lat": 37.6333236,
-                "lng": 127.0258599
+                "lat": 37.6585396,
+                "lng": 127.0121886
             },
-            "location_type": "APPROXIMATE",
+            "location_type": "ROOFTOP",
             "viewport": {
                 "northeast": {
-                    "lat": 37.6345152,
-                    "lng": 127.0271437302915
+                    "lat": 37.65988858029149,
+                    "lng": 127.0135375802915
                 },
                 "southwest": {
-                    "lat": 37.6308609,
-                    "lng": 127.0244457697085
+                    "lat": 37.6571906197085,
+                    "lng": 127.0108396197085
                 }
             }
         },
-        "partial_match": true,
-        "place_id": "ChIJo1uLOhO8fDURTKWcgoMBCVs",
+        "place_id": "ChIJVz3gO5y-fDURL42rxtuzBBM",
+        "plus_code": {
+            "compound_code": "M256+CV \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99M256+CV"
+        },
         "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
+            "street_address"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \uc0bc\uc591\ub85c163\uae38 27 \uc6b0\uc774\ub3d9 "
     },
     {
         "address_components": [
@@ -1462,7 +1287,97 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uc601\ub4f1\ud3ec\uad6c \uc601\ub4f1\ud3ec\ub85c49\uae38 9-14 \uc601\ub4f1\ud3ec\ub3d92\uac00 102\ub3d9"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uff13",
+                "short_name": "\uff13",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc0bc\uc591\ub85c114\uae38",
+                "short_name": "\uc0bc\uc591\ub85c114\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\uc218\uc7202\ub3d9",
+                "short_name": "\uc218\uc7202\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uac15\ubd81\uad6c",
+                "short_name": "\uac15\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "142-072",
+                "short_name": "142-072",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc218\uc7202\ub3d9 \uc0bc\uc591\ub85c114\uae38 3",
+        "geometry": {
+            "location": {
+                "lat": 37.6429413,
+                "lng": 127.0171815
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6442902802915,
+                    "lng": 127.0185304802915
+                },
+                "southwest": {
+                    "lat": 37.6415923197085,
+                    "lng": 127.0158325197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJ_7lQEz28fDURl2SZD6F9UzE",
+        "plus_code": {
+            "compound_code": "J2V8+5V \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99J2V8+5V"
+        },
+        "types": [
+            "street_address"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \uc0bc\uc591\ub85c114\uae38 3 \uc218\uc720\ub3d9,\uc740\ud589\ube4c\ub77c \uc740\ud589\ube4c\ub77c"
     },
     {
         "address_components": [
@@ -1551,20 +1466,14 @@
             "political",
             "sublocality",
             "sublocality_level_4"
-        ]
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \ub355\ub989\ub85c30\uae38 49 \ubbf8\uc544\ub3d9,\uccad\uc6b4\ubbf8\uac00 102\ub3d9"
     },
     {
         "address_components": [
             {
-                "long_name": "\uff12\uff17",
-                "short_name": "\uff12\uff17",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc0bc\uc591\ub85c163\uae38",
-                "short_name": "\uc0bc\uc591\ub85c163\uae38",
+                "long_name": "\ub355\ub989\ub85c30\uae38",
+                "short_name": "\ub355\ub989\ub85c30\uae38",
                 "types": [
                     "political",
                     "sublocality",
@@ -1572,8 +1481,8 @@
                 ]
             },
             {
-                "long_name": "\uc6b0\uc774\ub3d9",
-                "short_name": "\uc6b0\uc774\ub3d9",
+                "long_name": "\ubbf8\uc544\ub3d9",
+                "short_name": "\ubbf8\uc544\ub3d9",
                 "types": [
                     "political",
                     "sublocality",
@@ -1606,112 +1515,139 @@
                 ]
             },
             {
-                "long_name": "142-871",
-                "short_name": "142-871",
+                "long_name": "142-100",
+                "short_name": "142-100",
                 "types": [
                     "postal_code"
                 ]
             }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9 \uc0bc\uc591\ub85c163\uae38 27",
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \ubbf8\uc544\ub3d9 \ub355\ub989\ub85c30\uae38",
         "geometry": {
-            "location": {
-                "lat": 37.6585396,
-                "lng": 127.0121886
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
+            "bounds": {
                 "northeast": {
-                    "lat": 37.65988858029149,
-                    "lng": 127.0135375802915
+                    "lat": 37.6345152,
+                    "lng": 127.0264866
                 },
                 "southwest": {
-                    "lat": 37.6571906197085,
-                    "lng": 127.0108396197085
+                    "lat": 37.6308609,
+                    "lng": 127.0251029
                 }
-            }
-        },
-        "place_id": "ChIJVz3gO5y-fDURL42rxtuzBBM",
-        "plus_code": {
-            "compound_code": "M256+CV \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99M256+CV"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uc6b0\uc774\ub3d9",
-                "short_name": "\uc6b0\uc774\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
             },
-            {
-                "long_name": "\uac15\ubd81\uad6c",
-                "short_name": "\uac15\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "142-070",
-                "short_name": "142-070",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9",
-        "geometry": {
             "location": {
-                "lat": 37.6458867,
-                "lng": 127.0075477
+                "lat": 37.6333236,
+                "lng": 127.0258599
             },
-            "location_type": "GEOMETRIC_CENTER",
+            "location_type": "APPROXIMATE",
             "viewport": {
                 "northeast": {
-                    "lat": 37.6472356802915,
-                    "lng": 127.0088966802915
+                    "lat": 37.6345152,
+                    "lng": 127.0271437302915
                 },
                 "southwest": {
-                    "lat": 37.6445377197085,
-                    "lng": 127.0061987197085
+                    "lat": 37.6308609,
+                    "lng": 127.0244457697085
                 }
             }
         },
         "partial_match": true,
-        "place_id": "ChIJpZqzfjC8fDURZ9G8Z9-wTf4",
-        "plus_code": {
-            "compound_code": "J2W5+92 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99J2W5+92"
-        },
+        "place_id": "ChIJo1uLOhO8fDURTKWcgoMBCVs",
         "types": [
-            "establishment",
-            "point_of_interest"
-        ]
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \ub355\ub989\ub85c30\uae38 49 \ubbf8\uc544\ub3d9,\uccad\uc6b4\ubbf8\uac00 103\ub3d9"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\ub355\ub989\ub85c30\uae38",
+                "short_name": "\ub355\ub989\ub85c30\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\ubbf8\uc544\ub3d9",
+                "short_name": "\ubbf8\uc544\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uac15\ubd81\uad6c",
+                "short_name": "\uac15\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "142-100",
+                "short_name": "142-100",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \ubbf8\uc544\ub3d9 \ub355\ub989\ub85c30\uae38",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 37.6345152,
+                    "lng": 127.0264866
+                },
+                "southwest": {
+                    "lat": 37.6308609,
+                    "lng": 127.0251029
+                }
+            },
+            "location": {
+                "lat": 37.6333236,
+                "lng": 127.0258599
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6345152,
+                    "lng": 127.0271437302915
+                },
+                "southwest": {
+                    "lat": 37.6308609,
+                    "lng": 127.0244457697085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJo1uLOhO8fDURTKWcgoMBCVs",
+        "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \ub355\ub989\ub85c30\uae38 49 \ubbf8\uc544\ub3d9,\uccad\uc6b4\ubbf8\uac00 101\ub3d9"
     },
     {
         "address_components": [
@@ -1799,311 +1735,8 @@
         },
         "types": [
             "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "19",
-                "short_name": "19",
-                "types": [
-                    "subpremise"
-                ]
-            },
-            {
-                "long_name": "\uff17\u2212\uff15",
-                "short_name": "\uff17\u2212\uff15",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\ubd81\uac00\uc88c\ub3d9",
-                "short_name": "\ubd81\uac00\uc88c\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc11c\ub300\ubb38\uad6c",
-                "short_name": "\uc11c\ub300\ubb38\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "120-132",
-                "short_name": "120-132",
-                "types": [
-                    "postal_code"
-                ]
-            }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc11c\ub300\ubb38\uad6c \ubd81\uac00\uc88c\ub3d9 7-5 19",
-        "geometry": {
-            "location": {
-                "lat": 37.5812617,
-                "lng": 126.9160678
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.5826106802915,
-                    "lng": 126.9174167802915
-                },
-                "southwest": {
-                    "lat": 37.5799127197085,
-                    "lng": 126.9147188197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "EjcxOSwgNy01IEJ1a2dhandhLWRvbmcsIFNlb2RhZW11bi1ndSwgU2VvdWwsIFNvdXRoIEtvcmVhIh4aHAoWChQKEgmTocfbVZh8NRHFunpr180gDxICMTk",
-        "types": [
-            "subpremise"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff11\uff15\uff18\uff14\u2212\uff16",
-                "short_name": "\uff11\uff15\uff18\uff14\u2212\uff16",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc11c\ucd08\ub3d9",
-                "short_name": "\uc11c\ucd08\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc11c\ucd08\uad6c",
-                "short_name": "\uc11c\ucd08\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "137-070",
-                "short_name": "137-070",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc11c\ucd08\uad6c \uc11c\ucd08\ub3d9 1584-6",
-        "geometry": {
-            "location": {
-                "lat": 37.4850731,
-                "lng": 127.0120121
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.4864220802915,
-                    "lng": 127.0133610802915
-                },
-                "southwest": {
-                    "lat": 37.4837241197085,
-                    "lng": 127.0106631197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJBUHW4BOhfDURQ1oKWlrDfqI",
-        "plus_code": {
-            "compound_code": "F2P6+2R \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99F2P6+2R"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff11\uff17",
-                "short_name": "\uff11\uff17",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc0c1\uacc4\ub3d9",
-                "short_name": "\uc0c1\uacc4\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\ub178\uc6d0\uad6c",
-                "short_name": "\ub178\uc6d0\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "139-204",
-                "short_name": "139-204",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \ub178\uc6d0\uad6c \uc0c1\uacc4\ub3d9 17",
-        "geometry": {
-            "location": {
-                "lat": 37.6779891,
-                "lng": 127.088154
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6793380802915,
-                    "lng": 127.0895029802915
-                },
-                "southwest": {
-                    "lat": 37.6766401197085,
-                    "lng": 127.0868050197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJo_D1Vlm4fDUR6vl8Mhdhi8o",
-        "plus_code": {
-            "compound_code": "M3HQ+57 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99M3HQ+57"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\uac1c\ubd09\ub3d9",
-                "short_name": "\uac1c\ubd09\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "152-090",
-                "short_name": "152-090",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac1c\ubd09\ub3d9",
-        "geometry": {
-            "location": {
-                "lat": 37.4824808,
-                "lng": 126.8527222
-            },
-            "location_type": "GEOMETRIC_CENTER",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.48382978029149,
-                    "lng": 126.8540711802915
-                },
-                "southwest": {
-                    "lat": 37.48113181970849,
-                    "lng": 126.8513732197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJSwmT4hFiezURw4uQFv7YVbc",
-        "plus_code": {
-            "compound_code": "FVJ3+X3 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98FVJ3+X3"
-        },
-        "types": [
-            "establishment",
-            "point_of_interest"
-        ]
+        "original_addr": "\uac15\ubd81\uad6c \uc0bc\uc591\ub85c38\ub098\uae38 7 \ubbf8\uc544\ub3d9,\ud504\ub791\uc9c0\ud30c\ub2c8 B\ub3d9 \ud504\ub791\uc9c0\ud30c\ub2c8 B\ub3d9"
     },
     {
         "address_components": [
@@ -2182,7 +1815,8 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\ub178\uc6d0\uad6c \ub3d9\uc77c\ub85c237\ub098\uae38 19 \uc0c1\uacc4\ub3d9,\uc2dc\uc6284\ub3d9 \ubbf8\uc18c4\ub3d9"
     },
     {
         "address_components": [
@@ -2270,7 +1904,177 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uc131\ubd81\uad6c \ubcf4\uad6d\ubb38\ub85c8\uac00\uae38 7 \uc815\ub989\ub3d9 \ubc18\uc11d\uc601\uc6b0\ube4c"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uff17",
+                "short_name": "\uff17",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc99d\uac00\ub85c19\uae38",
+                "short_name": "\uc99d\uac00\ub85c19\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\ubd81\uac00\uc88c\ub3d9",
+                "short_name": "\ubd81\uac00\uc88c\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uc11c\ub300\ubb38\uad6c",
+                "short_name": "\uc11c\ub300\ubb38\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "120-132",
+                "short_name": "120-132",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc11c\ub300\ubb38\uad6c \ubd81\uac00\uc88c\ub3d9 \uc99d\uac00\ub85c19\uae38 7",
+        "geometry": {
+            "location": {
+                "lat": 37.5797664,
+                "lng": 126.9157181
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.5811153802915,
+                    "lng": 126.9170670802915
+                },
+                "southwest": {
+                    "lat": 37.5784174197085,
+                    "lng": 126.9143691197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJiVBAWP-YfDURzbnpFydTN2I",
+        "plus_code": {
+            "compound_code": "HWH8+W7 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q98HWH8+W7"
+        },
+        "types": [
+            "street_address"
+        ],
+        "original_addr": "\uc11c\ub300\ubb38\uad6c \uc99d\uac00\ub85c19\uae38 7 \ubd81\uac00\uc88c\ub3d9 \uc9c0\uc6b0\ud330\ub9ac\uc2a4"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uff11\uff15\uff18\uff14\u2212\uff16",
+                "short_name": "\uff11\uff15\uff18\uff14\u2212\uff16",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc11c\ucd08\ub3d9",
+                "short_name": "\uc11c\ucd08\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uc11c\ucd08\uad6c",
+                "short_name": "\uc11c\ucd08\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "137-070",
+                "short_name": "137-070",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc11c\ucd08\uad6c \uc11c\ucd08\ub3d9 1584-6",
+        "geometry": {
+            "location": {
+                "lat": 37.4850731,
+                "lng": 127.0120121
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.4864220802915,
+                    "lng": 127.0133610802915
+                },
+                "southwest": {
+                    "lat": 37.4837241197085,
+                    "lng": 127.0106631197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJBUHW4BOhfDURQ1oKWlrDfqI",
+        "plus_code": {
+            "compound_code": "F2P6+2R \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99F2P6+2R"
+        },
+        "types": [
+            "street_address"
+        ],
+        "original_addr": "\uc11c\ucd08\uad6c \uc11c\ucd08\ub3d9 1584-6,11,12 "
     },
     {
         "address_components": [
@@ -2358,20 +2162,21 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uc131\ubd81\uad6c \ub3cc\uacf6\uc774\ub85c9\uac00\uae38 26-7 \uc11d\uad00\ub3d9 \ub2e4\uc6b0\uc544\ud2b8\ube4c"
     },
     {
         "address_components": [
             {
-                "long_name": "\uff12\uff13\uff15\u2212\uff14\uff16",
-                "short_name": "\uff12\uff13\uff15\u2212\uff14\uff16",
+                "long_name": "\uff11\uff17",
+                "short_name": "\uff11\uff17",
                 "types": [
                     "premise"
                 ]
             },
             {
-                "long_name": "\uac00\uc0b0\ub3d9",
-                "short_name": "\uac00\uc0b0\ub3d9",
+                "long_name": "\uc0c1\uacc4\ub3d9",
+                "short_name": "\uc0c1\uacc4\ub3d9",
                 "types": [
                     "political",
                     "sublocality",
@@ -2379,8 +2184,8 @@
                 ]
             },
             {
-                "long_name": "\uae08\ucc9c\uad6c",
-                "short_name": "\uae08\ucc9c\uad6c",
+                "long_name": "\ub178\uc6d0\uad6c",
+                "short_name": "\ub178\uc6d0\uad6c",
                 "types": [
                     "political",
                     "sublocality",
@@ -2404,203 +2209,41 @@
                 ]
             },
             {
-                "long_name": "153-023",
-                "short_name": "153-023",
+                "long_name": "139-204",
+                "short_name": "139-204",
                 "types": [
                     "postal_code"
                 ]
             }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uae08\ucc9c\uad6c \uac00\uc0b0\ub3d9 235-46",
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \ub178\uc6d0\uad6c \uc0c1\uacc4\ub3d9 17",
         "geometry": {
             "location": {
-                "lat": 37.472451,
-                "lng": 126.8917228
+                "lat": 37.6779891,
+                "lng": 127.088154
             },
             "location_type": "ROOFTOP",
             "viewport": {
                 "northeast": {
-                    "lat": 37.4737999802915,
-                    "lng": 126.8930717802915
+                    "lat": 37.6793380802915,
+                    "lng": 127.0895029802915
                 },
                 "southwest": {
-                    "lat": 37.4711020197085,
-                    "lng": 126.8903738197085
+                    "lat": 37.6766401197085,
+                    "lng": 127.0868050197085
                 }
             }
         },
         "partial_match": true,
-        "place_id": "ChIJL1nDz91hezURu-q5JxLYIKI",
+        "place_id": "ChIJo_D1Vlm4fDUR6vl8Mhdhi8o",
         "plus_code": {
-            "compound_code": "FVCR+XM \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98FVCR+XM"
+            "compound_code": "M3HQ+57 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99M3HQ+57"
         },
         "types": [
-            "establishment",
-            "point_of_interest"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\ub3c5\uc0b0\ub85c64\ub2e4\uae38",
-                "short_name": "\ub3c5\uc0b0\ub85c64\ub2e4\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\ub3c5\uc0b02\ub3d9",
-                "short_name": "\ub3c5\uc0b02\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uae08\ucc9c\uad6c",
-                "short_name": "\uae08\ucc9c\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "153-012",
-                "short_name": "153-012",
-                "types": [
-                    "postal_code"
-                ]
-            }
+            "street_address"
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uae08\ucc9c\uad6c \ub3c5\uc0b02\ub3d9 \ub3c5\uc0b0\ub85c64\ub2e4\uae38",
-        "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.4665729,
-                    "lng": 126.9046784
-                },
-                "southwest": {
-                    "lat": 37.4656848,
-                    "lng": 126.903746
-                }
-            },
-            "location": {
-                "lat": 37.466085,
-                "lng": 126.9041428
-            },
-            "location_type": "APPROXIMATE",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.4674778302915,
-                    "lng": 126.9055611802915
-                },
-                "southwest": {
-                    "lat": 37.4647798697085,
-                    "lng": 126.9028632197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJm0H1oNFhezUR6cxe27dFuZw",
-        "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uac1c\ubd092\ub3d9",
-                "short_name": "\uac1c\ubd092\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uad6c\ub85c\uad6c",
-                "short_name": "\uad6c\ub85c\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "152-090",
-                "short_name": "152-090",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uad6c\ub85c\uad6c \uac1c\ubd092\ub3d9",
-        "geometry": {
-            "location": {
-                "lat": 37.4915783,
-                "lng": 126.8615947
-            },
-            "location_type": "GEOMETRIC_CENTER",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.4929272802915,
-                    "lng": 126.8629436802915
-                },
-                "southwest": {
-                    "lat": 37.4902293197085,
-                    "lng": 126.8602457197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJwZztPPmdfDUR0-haFGdXKaI",
-        "plus_code": {
-            "compound_code": "FVR6+JJ \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98FVR6+JJ"
-        },
-        "types": [
-            "establishment",
-            "point_of_interest"
-        ]
+        "original_addr": "\ub178\uc6d0\uad6c \ub3d9\uc77c\ub85c237\ub098\uae38 17 \uc0c1\uacc4\ub3d9,\uc2dc\uc6283\ub3d9 \ud574\ubc002\ub3d9"
     },
     {
         "address_components": [
@@ -2688,7 +2331,8 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uad6c\ub85c\uad6c \uad6c\ub85c\ub3d9\ub85c7\uae38 25 \uac00\ub9ac\ubd09\ub3d9 103\ub3d9"
     },
     {
         "address_components": [
@@ -2776,7 +2420,8 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\uc740\ud3c9\uad6c \uc740\ud3c9\ub85c13\uae38 11-14 \ub179\ubc88\ub3d9 \ub098\ub9b0\ud558\uc6b0\uc9d55\ucc28 \uac00\ub3d9"
     },
     {
         "address_components": [
@@ -2864,572 +2509,8 @@
         },
         "types": [
             "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff11\uff11\u2212\uff11\uff13",
-                "short_name": "\uff11\uff11\u2212\uff11\uff13",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc7a5\uc704\ub3d9",
-                "short_name": "\uc7a5\uc704\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc131\ubd81\uad6c",
-                "short_name": "\uc131\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "136-140",
-                "short_name": "136-140",
-                "types": [
-                    "postal_code"
-                ]
-            }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc131\ubd81\uad6c \uc7a5\uc704\ub3d9 11-13",
-        "geometry": {
-            "location": {
-                "lat": 37.6144173,
-                "lng": 127.0596214
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6157662802915,
-                    "lng": 127.0609703802915
-                },
-                "southwest": {
-                    "lat": 37.6130683197085,
-                    "lng": 127.0582724197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJReWwb5a7fDURPcFPjCzy3S4",
-        "plus_code": {
-            "compound_code": "J375+QR \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99J375+QR"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uc2dc\ud765\ub300\ub85c48\uae38",
-                "short_name": "\uc2dc\ud765\ub300\ub85c48\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\uc2dc\ud7651\ub3d9",
-                "short_name": "\uc2dc\ud7651\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uae08\ucc9c\uad6c",
-                "short_name": "\uae08\ucc9c\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "153-031",
-                "short_name": "153-031",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uae08\ucc9c\uad6c \uc2dc\ud7651\ub3d9 \uc2dc\ud765\ub300\ub85c48\uae38",
-        "geometry": {
-            "bounds": {
-                "northeast": {
-                    "lat": 37.4515938,
-                    "lng": 126.9051806
-                },
-                "southwest": {
-                    "lat": 37.450257,
-                    "lng": 126.9029838
-                }
-            },
-            "location": {
-                "lat": 37.4510655,
-                "lng": 126.90407
-            },
-            "location_type": "APPROXIMATE",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.4522743802915,
-                    "lng": 126.9054311802915
-                },
-                "southwest": {
-                    "lat": 37.4495764197085,
-                    "lng": 126.9027332197085
-                }
-            }
-        },
-        "place_id": "ChIJyQetxrZhezUR36MQlkm6-VY",
-        "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_4"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff12\uff18\u2212\uff17",
-                "short_name": "\uff12\uff18\u2212\uff17",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc778\uc218\ubd09\ub85c81\uae38",
-                "short_name": "\uc778\uc218\ubd09\ub85c81\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\uc6b0\uc774\ub3d9",
-                "short_name": "\uc6b0\uc774\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uac15\ubd81\uad6c",
-                "short_name": "\uac15\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "142-070",
-                "short_name": "142-070",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9 \uc778\uc218\ubd09\ub85c81\uae38 28-7",
-        "geometry": {
-            "location": {
-                "lat": 37.6458364,
-                "lng": 127.0086877
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6471853802915,
-                    "lng": 127.0100366802915
-                },
-                "southwest": {
-                    "lat": 37.6444874197085,
-                    "lng": 127.0073387197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJ9ZbJkTq8fDURF9e888SNebs",
-        "plus_code": {
-            "compound_code": "J2W5+8F \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99J2W5+8F"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff13\uff14",
-                "short_name": "\uff13\uff14",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc0bc\uc591\ub85c169\uae38",
-                "short_name": "\uc0bc\uc591\ub85c169\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\uc6b0\uc774\ub3d9",
-                "short_name": "\uc6b0\uc774\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uac15\ubd81\uad6c",
-                "short_name": "\uac15\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "142-871",
-                "short_name": "142-871",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9 \uc0bc\uc591\ub85c169\uae38 34",
-        "geometry": {
-            "location": {
-                "lat": 37.6613567,
-                "lng": 127.011486
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6627056802915,
-                    "lng": 127.0128349802915
-                },
-                "southwest": {
-                    "lat": 37.6600077197085,
-                    "lng": 127.0101370197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJKR1xlpu-fDURrAR7JHSlzLU",
-        "plus_code": {
-            "compound_code": "M266+GH \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99M266+GH"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff12\uff19\u2212\uff15\uff19",
-                "short_name": "\uff12\uff19\u2212\uff15\uff19",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc7a5\uc704\ub3d9",
-                "short_name": "\uc7a5\uc704\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc131\ubd81\uad6c",
-                "short_name": "\uc131\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "136-140",
-                "short_name": "136-140",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc131\ubd81\uad6c \uc7a5\uc704\ub3d9 29-59",
-        "geometry": {
-            "location": {
-                "lat": 37.60805879999999,
-                "lng": 127.0488411
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6094077802915,
-                    "lng": 127.0501900802915
-                },
-                "southwest": {
-                    "lat": 37.6067098197085,
-                    "lng": 127.0474921197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJXa6YGoO7fDURQvftAxMmVAQ",
-        "plus_code": {
-            "compound_code": "J25X+6G \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99J25X+6G"
-        },
-        "types": [
-            "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\uac1c\ubd09\ub3d9",
-                "short_name": "\uac1c\ubd09\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "152-090",
-                "short_name": "152-090",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac1c\ubd09\ub3d9",
-        "geometry": {
-            "location": {
-                "lat": 37.4824808,
-                "lng": 126.8527222
-            },
-            "location_type": "GEOMETRIC_CENTER",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.48382978029149,
-                    "lng": 126.8540711802915
-                },
-                "southwest": {
-                    "lat": 37.48113181970849,
-                    "lng": 126.8513732197085
-                }
-            }
-        },
-        "place_id": "ChIJSwmT4hFiezURw4uQFv7YVbc",
-        "plus_code": {
-            "compound_code": "FVJ3+X3 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98FVJ3+X3"
-        },
-        "types": [
-            "establishment",
-            "point_of_interest"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff12\uff13\uff15\u2212\uff14\uff16",
-                "short_name": "\uff12\uff13\uff15\u2212\uff14\uff16",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uac00\uc0b0\ub3d9",
-                "short_name": "\uac00\uc0b0\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uae08\ucc9c\uad6c",
-                "short_name": "\uae08\ucc9c\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "153-023",
-                "short_name": "153-023",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uae08\ucc9c\uad6c \uac00\uc0b0\ub3d9 235-46",
-        "geometry": {
-            "location": {
-                "lat": 37.472451,
-                "lng": 126.8917228
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.4737999802915,
-                    "lng": 126.8930717802915
-                },
-                "southwest": {
-                    "lat": 37.4711020197085,
-                    "lng": 126.8903738197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJL1nDz91hezURu-q5JxLYIKI",
-        "plus_code": {
-            "compound_code": "FVCR+XM \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98FVCR+XM"
-        },
-        "types": [
-            "establishment",
-            "point_of_interest"
-        ]
+        "original_addr": "\uc740\ud3c9\uad6c \uc5ed\ub9d0\ub85c6\uae38 6-14 \uc5ed\ucd0c\ub3d9 \ub3d9\uc0b0\uc8fc\ud0dd\ud648\ud0c0\uc6b4"
     },
     {
         "address_components": [
@@ -3517,7 +2598,446 @@
         },
         "types": [
             "street_address"
-        ]
+        ],
+        "original_addr": "\ub3c4\ubd09\uad6c \ub3c4\ubd09\ub85c117\uae38 51-14 \uc30d\ubb38\ub3d9 \uc2a4\ub9c8\ud2b8\ud790"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uff12\uff19\u2212\uff15\uff19",
+                "short_name": "\uff12\uff19\u2212\uff15\uff19",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc7a5\uc704\ub3d9",
+                "short_name": "\uc7a5\uc704\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uc131\ubd81\uad6c",
+                "short_name": "\uc131\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "136-140",
+                "short_name": "136-140",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc131\ubd81\uad6c \uc7a5\uc704\ub3d9 29-59",
+        "geometry": {
+            "location": {
+                "lat": 37.60805879999999,
+                "lng": 127.0488411
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6094077802915,
+                    "lng": 127.0501900802915
+                },
+                "southwest": {
+                    "lat": 37.6067098197085,
+                    "lng": 127.0474921197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJXa6YGoO7fDURQvftAxMmVAQ",
+        "plus_code": {
+            "compound_code": "J25X+6G \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99J25X+6G"
+        },
+        "types": [
+            "street_address"
+        ],
+        "original_addr": "\uc131\ubd81\uad6c \ud654\ub791\ub85c33\uac00\uae38 29 \uc7a5\uc704\ub3d9 "
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uc7a5\uc6d4\ub85c6\uae38",
+                "short_name": "\uc7a5\uc6d4\ub85c6\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\uc7a5\uc7042\ub3d9",
+                "short_name": "\uc7a5\uc7042\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uc131\ubd81\uad6c",
+                "short_name": "\uc131\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "136-140",
+                "short_name": "136-140",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc131\ubd81\uad6c \uc7a5\uc7042\ub3d9 \uc7a5\uc6d4\ub85c6\uae38",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 37.60995399999999,
+                    "lng": 127.0489036
+                },
+                "southwest": {
+                    "lat": 37.6087291,
+                    "lng": 127.0473589
+                }
+            },
+            "location": {
+                "lat": 37.6092436,
+                "lng": 127.0483204
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6106905302915,
+                    "lng": 127.0494802302915
+                },
+                "southwest": {
+                    "lat": 37.6079925697085,
+                    "lng": 127.0467822697085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJl78ydoO7fDURepdy1LRB-C0",
+        "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+        ],
+        "original_addr": "\uc131\ubd81\uad6c \uc7a5\uc6d4\ub85c6\uae38 11 \uc7a5\uc704\ub3d9 \ud558\uc774\ube4c \uc81c\ube44\ub3d9"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uc885\uc554\ub85c24\uac00\uae38",
+                "short_name": "\uc885\uc554\ub85c24\uac00\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\uc885\uc554\ub3d9",
+                "short_name": "\uc885\uc554\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uc131\ubd81\uad6c",
+                "short_name": "\uc131\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "136-090",
+                "short_name": "136-090",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc131\ubd81\uad6c \uc885\uc554\ub3d9 \uc885\uc554\ub85c24\uac00\uae38",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 37.6010813,
+                    "lng": 127.0387994
+                },
+                "southwest": {
+                    "lat": 37.5996248,
+                    "lng": 127.0352947
+                }
+            },
+            "location": {
+                "lat": 37.6004726,
+                "lng": 127.036672
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6017020302915,
+                    "lng": 127.0387994
+                },
+                "southwest": {
+                    "lat": 37.5990040697085,
+                    "lng": 127.0352947
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJ2YNnK4O8fDURL-S9P-n0UKo",
+        "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+        ],
+        "original_addr": "\uc131\ubd81\uad6c \uc885\uc554\ub85c24\uac00\uae38 36 \uc885\uc554\ub3d9 \ubbf8\uc18c\uac00"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uff13\uff14",
+                "short_name": "\uff13\uff14",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc0bc\uc591\ub85c169\uae38",
+                "short_name": "\uc0bc\uc591\ub85c169\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\uc6b0\uc774\ub3d9",
+                "short_name": "\uc6b0\uc774\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uac15\ubd81\uad6c",
+                "short_name": "\uac15\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "142-871",
+                "short_name": "142-871",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9 \uc0bc\uc591\ub85c169\uae38 34",
+        "geometry": {
+            "location": {
+                "lat": 37.6613567,
+                "lng": 127.011486
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6627056802915,
+                    "lng": 127.0128349802915
+                },
+                "southwest": {
+                    "lat": 37.6600077197085,
+                    "lng": 127.0101370197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJKR1xlpu-fDURrAR7JHSlzLU",
+        "plus_code": {
+            "compound_code": "M266+GH \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99M266+GH"
+        },
+        "types": [
+            "street_address"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \uc0bc\uc591\ub85c169\uae38 34-28 \uc6b0\uc774\ub3d9 \ub2e4\uc19c\ud790\ud558\uc6b0\uc2a4 103\ub3d9"
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "\uff12\uff18\u2212\uff17",
+                "short_name": "\uff12\uff18\u2212\uff17",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "\uc778\uc218\ubd09\ub85c81\uae38",
+                "short_name": "\uc778\uc218\ubd09\ub85c81\uae38",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "\uc6b0\uc774\ub3d9",
+                "short_name": "\uc6b0\uc774\ub3d9",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "\uac15\ubd81\uad6c",
+                "short_name": "\uac15\ubd81\uad6c",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            {
+                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "\ub300\ud55c\ubbfc\uad6d",
+                "short_name": "KR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "142-070",
+                "short_name": "142-070",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac15\ubd81\uad6c \uc6b0\uc774\ub3d9 \uc778\uc218\ubd09\ub85c81\uae38 28-7",
+        "geometry": {
+            "location": {
+                "lat": 37.6458364,
+                "lng": 127.0086877
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.6471853802915,
+                    "lng": 127.0100366802915
+                },
+                "southwest": {
+                    "lat": 37.6444874197085,
+                    "lng": 127.0073387197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJ9ZbJkTq8fDURF9e888SNebs",
+        "plus_code": {
+            "compound_code": "J2W5+8F \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+            "global_code": "8Q99J2W5+8F"
+        },
+        "types": [
+            "street_address"
+        ],
+        "original_addr": "\uac15\ubd81\uad6c \uc778\uc218\ubd09\ub85c81\uae38 28-7 \uc218\uc720\ub3d9 \uc704\ub108\uc2a4\ube4cB\ub3d9"
     },
     {
         "address_components": [
@@ -3604,158 +3124,7 @@
         },
         "types": [
             "street_address"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\uac1c\ubd09\ub3d9",
-                "short_name": "\uac1c\ubd09\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "152-090",
-                "short_name": "152-090",
-                "types": [
-                    "postal_code"
-                ]
-            }
         ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uac1c\ubd09\ub3d9",
-        "geometry": {
-            "location": {
-                "lat": 37.4824808,
-                "lng": 126.8527222
-            },
-            "location_type": "GEOMETRIC_CENTER",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.48382978029149,
-                    "lng": 126.8540711802915
-                },
-                "southwest": {
-                    "lat": 37.48113181970849,
-                    "lng": 126.8513732197085
-                }
-            }
-        },
-        "partial_match": true,
-        "place_id": "ChIJSwmT4hFiezURw4uQFv7YVbc",
-        "plus_code": {
-            "compound_code": "FVJ3+X3 \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q98FVJ3+X3"
-        },
-        "types": [
-            "establishment",
-            "point_of_interest"
-        ]
-    },
-    {
-        "address_components": [
-            {
-                "long_name": "\uff18\uff10",
-                "short_name": "\uff18\uff10",
-                "types": [
-                    "premise"
-                ]
-            },
-            {
-                "long_name": "\uc885\uc554\ub85c24\uac00\uae38",
-                "short_name": "\uc885\uc554\ub85c24\uac00\uae38",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_4"
-                ]
-            },
-            {
-                "long_name": "\uc885\uc554\ub3d9",
-                "short_name": "\uc885\uc554\ub3d9",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_2"
-                ]
-            },
-            {
-                "long_name": "\uc131\ubd81\uad6c",
-                "short_name": "\uc131\ubd81\uad6c",
-                "types": [
-                    "political",
-                    "sublocality",
-                    "sublocality_level_1"
-                ]
-            },
-            {
-                "long_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "short_name": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "\ub300\ud55c\ubbfc\uad6d",
-                "short_name": "KR",
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            {
-                "long_name": "136-090",
-                "short_name": "136-090",
-                "types": [
-                    "postal_code"
-                ]
-            }
-        ],
-        "formatted_address": "\ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc131\ubd81\uad6c \uc885\uc554\ub3d9 \uc885\uc554\ub85c24\uac00\uae38 80",
-        "geometry": {
-            "location": {
-                "lat": 37.5996248,
-                "lng": 127.0387994
-            },
-            "location_type": "ROOFTOP",
-            "viewport": {
-                "northeast": {
-                    "lat": 37.6009737802915,
-                    "lng": 127.0401483802915
-                },
-                "southwest": {
-                    "lat": 37.5982758197085,
-                    "lng": 127.0374504197085
-                }
-            }
-        },
-        "place_id": "ChIJUQXMSp28fDURNq21-ZMo7qo",
-        "plus_code": {
-            "compound_code": "H2XQ+RG \ub300\ud55c\ubbfc\uad6d \uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
-            "global_code": "8Q99H2XQ+RG"
-        },
-        "types": [
-            "establishment",
-            "point_of_interest"
-        ]
+        "original_addr": "\ub178\uc6d0\uad6c \ub3d9\uc77c\ub85c237\ub2e4\uae38 17 \uc0c1\uacc4\ub3d9 "
     }
 ]

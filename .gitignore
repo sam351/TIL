@@ -1,5 +1,7 @@
 .vscode
 secret.py
+self_study/Edwith_boost-course_Tensorflow/checkpoints/
+
 
 # Created by https://www.gitignore.io/api/venv,flask,python
 # Edit at https://www.gitignore.io/?templates=venv,flask,python
